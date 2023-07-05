@@ -4,22 +4,22 @@
 demo_code/  
 data/  
 |-- dataset/  
-|   |-- ground truth/  
-|   |-- noisy/  
+|-- |-- ground truth/  
+|-- |-- noisy/  
 |-- result/  
-|   |-- algorithm/  
-|   |-- data/  
+|-- |-- algorithm/  
+|-- |-- data/  
 |-- testset/  
 |-- valset/  
-|   |-- ground truth/  
-|   |-- noisy/  
+|-- |-- ground truth/  
+|-- |-- noisy/  
 models/  
 
-#train  
+### Train  
 python train.py  
-#test  
+### Test  
 cd ..  
 python ./demo_code/testTorch.py --input_path data/testset/ --ground_path data/testset/  
 python ./demo_code/testTorch.py --input_path ./data/valset/noisy/ --ground_path ./data/valset/ground_truth/  
-#图像有点大，在cpu上进行测试的  
-#模型训练加载好多次得到最后的结果  
+### 图像有点大，在cpu上进行测试的  
+### 模型训练加载好多次得到最后的结果  
