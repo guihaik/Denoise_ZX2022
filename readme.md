@@ -1,19 +1,19 @@
 ## 2022 中兴捧月大赛（多媒体赛道）-图像去噪Uformer
 
-#tree  
-demo_code  
-data  
-===dataset  
-======ground truth  
-======noisy  
-===result  
-======algorithm  
-======data  
-===testset  
-===valset  
-======ground truth  
-======noisy  
-models  
+### Tree  
+demo_code/  
+data/  
+|-- dataset/  
+|   |-- ground truth/  
+|   |-- noisy/  
+|-- result/  
+|   |-- algorithm/  
+|   |-- data/  
+|-- testset/  
+|-- valset/  
+|   |-- ground truth/  
+|   |-- noisy/  
+models/  
 
 #train  
 python train.py  
